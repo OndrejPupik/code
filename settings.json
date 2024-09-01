@@ -1,0 +1,15 @@
+{
+    "window.titleBarStyle": "custom",
+    "editor.fontFamily": "CaskaydiaMono Nerd Font",
+    "vim.useSystemClipboard": true,
+    "workbench.layoutControl.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+    "editor.lineNumbers": "relative",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["g", "t"],
+            "commands": ["editor.action.revealDefinition"]
+        }
+    ]
+}
